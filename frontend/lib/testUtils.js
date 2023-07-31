@@ -1,3 +1,5 @@
+/* eslint-disable import/no-unresolved */
+/* eslint-disable import/no-extraneous-dependencies */
 import casual from 'casual';
 import { PAGINATION_QUERY } from '../components/Pagination';
 

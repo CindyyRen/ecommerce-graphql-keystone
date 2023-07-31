@@ -13,7 +13,7 @@ export const Product = list({
     }),
     photo: relationship({
       ref: 'ProductImage.product',
-      many: true,
+      // many: true,
       ui: {
         // displayMode: 'select',
         displayMode: 'cards',
@@ -31,7 +31,7 @@ export const Product = list({
       defaultValue: 'DRAFT',
       ui: {
         displayMode: 'segmented-control',
-        // createView: { fieldMode: 'hidden' },
+        createView: { fieldMode: 'hidden' },
       },
     }),
     price: integer(),
